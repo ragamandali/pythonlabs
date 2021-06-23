@@ -1,3 +1,9 @@
+"""
+title: variable_labs
+author: raga mandali
+date: 06/21/2021
+"""
+
 import math
 
 #Swallow Exercise
@@ -13,6 +19,9 @@ print("The number of swallows it requires to carry a coconut is " + str(math.cei
 #Macaw Exercise
 coconut_weight = 1450
 macaw_weight = 900
+
 macaw_limit = macaw_weight/3 #300.0
+
 macaws_required = coconut_weight/macaw_limit #4.8333
+
 print("The number of macaws required to carry a coconut is " + str(math.ceil(macaws_required)))
